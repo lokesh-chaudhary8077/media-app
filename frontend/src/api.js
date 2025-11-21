@@ -1,4 +1,4 @@
-export const serverUrl = ""
+export const serverUrl = "https://media-app-vs04.onrender.com"
 
 export async function signUpApi({ name, userName, email, password }) {
 const res = await fetch(`/api/auth/signup`, {
