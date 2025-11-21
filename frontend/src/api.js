@@ -1,7 +1,7 @@
 export const serverUrl = "https://media-app-vs04.onrender.com"
 
 export async function signUpApi({ name, userName, email, password }) {
-const res = await fetch(`/api/auth/signup`, {
+const res = await fetch(`${serverUrl}/api/auth/signup`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     credentials: 'include',
