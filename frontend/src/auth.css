@@ -84,7 +84,7 @@ body.dark .input-pill input::placeholder {
 }
 
 .input-pill.has-icon .eye{
-  position:absolute; right:12px; top:50%; transform:translateY(-50%);
+  position:absolute; right:12px; top:70%; transform:translateY(-50%);
   border:0; background:transparent; cursor:pointer; font-size:22px; color:#2d1b3d;
   transition: color 0.3s ease;
 }
@@ -132,7 +132,7 @@ body.light .auth-right {
   color: #2d1b3d;
 }
 
-.logo-card{ width:min(320px, 70%); height:min(320px, 70%); background: linear-gradient(135deg, #a855f7, #9333ea); border-radius:999px; display:grid; place-items:center; transition: background 0.3s ease; box-shadow: 0 10px 40px rgba(168, 85, 247, 0.4); }
+.logo-card{ width:min(320px, 70%); height:min(200px, 70%); background: linear-gradient(135deg, #a855f7, #9333ea); border-radius:9px; display:grid; place-items:center; transition: background 0.3s ease; box-shadow: 0 10px 40px rgba(168, 85, 247, 0.4); }
 .logo-card img{ width:90%; height:90%; object-fit:contain; filter:contrast(1.1); }
 .logo-caption{ font-weight:600; transition: color 0.3s ease; }
 
