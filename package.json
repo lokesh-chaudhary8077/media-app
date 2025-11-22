@@ -4,7 +4,7 @@
     "description": "Full-stack social media application",
     "scripts": {
         "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
-        "start": "cd backend && npm start",
+        "start": "cd backend && node test-server.js",
         "dev:frontend": "cd frontend && npm run dev",
         "dev:backend": "cd backend && npm run dev",
         "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
