@@ -12,7 +12,11 @@ const app = express()
 const port = process.env.PORT || 8000
 
 app.use(cors({
+<<<<<<< HEAD
   origin: "http://localhost:5173",
+=======
+  origin: "https://media-app-gray-delta.vercel.app",
+>>>>>>> origin/main
   credentials: true,
 }))
 app.use(express.json())

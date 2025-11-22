@@ -12,7 +12,11 @@ function App() {
 
   useEffect(() => {
     // Check session
+<<<<<<< HEAD
     fetch(`/api/auth/me`, { credentials: 'include' })
+=======
+    fetch(`${serverUrl}/api/auth/me`, { credentials: 'include' })
+>>>>>>> origin/main
       .then(async (res) => {
         if (res.ok) {
           const data = await res.json()
